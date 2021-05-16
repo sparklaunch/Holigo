@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2E014D5C2650C49D00716C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E014D5B2650C49D00716C28 /* AppDelegate.swift */; };
 		2E014D5E2650C49D00716C28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E014D5D2650C49D00716C28 /* SceneDelegate.swift */; };
-		2E014D602650C49D00716C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E014D5F2650C49D00716C28 /* ViewController.swift */; };
+		2E014D602650C49D00716C28 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E014D5F2650C49D00716C28 /* WelcomeScreenViewController.swift */; };
 		2E014D632650C49D00716C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E014D612650C49D00716C28 /* Main.storyboard */; };
 		2E014D652650C49E00716C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E014D642650C49E00716C28 /* Assets.xcassets */; };
 		2E014D682650C49E00716C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E014D662650C49E00716C28 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		2E014D582650C49D00716C28 /* Holigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E014D5B2650C49D00716C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E014D5D2650C49D00716C28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E014D5F2650C49D00716C28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E014D5F2650C49D00716C28 /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
 		2E014D622650C49D00716C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E014D642650C49E00716C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E014D672650C49E00716C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,13 +58,37 @@
 			children = (
 				2E014D5B2650C49D00716C28 /* AppDelegate.swift */,
 				2E014D5D2650C49D00716C28 /* SceneDelegate.swift */,
-				2E014D5F2650C49D00716C28 /* ViewController.swift */,
-				2E014D612650C49D00716C28 /* Main.storyboard */,
+				2E014D712650C4F100716C28 /* Models */,
+				2E014D702650C4EB00716C28 /* Controllers */,
+				2E014D6F2650C4E300716C28 /* Views */,
 				2E014D642650C49E00716C28 /* Assets.xcassets */,
 				2E014D662650C49E00716C28 /* LaunchScreen.storyboard */,
 				2E014D692650C49E00716C28 /* Info.plist */,
 			);
 			path = Holigo;
+			sourceTree = "<group>";
+		};
+		2E014D6F2650C4E300716C28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E014D612650C49D00716C28 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E014D702650C4EB00716C28 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E014D5F2650C49D00716C28 /* WelcomeScreenViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2E014D712650C4F100716C28 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E014D602650C49D00716C28 /* ViewController.swift in Sources */,
+				2E014D602650C49D00716C28 /* WelcomeScreenViewController.swift in Sources */,
 				2E014D5C2650C49D00716C28 /* AppDelegate.swift in Sources */,
 				2E014D5E2650C49D00716C28 /* SceneDelegate.swift in Sources */,
 			);
